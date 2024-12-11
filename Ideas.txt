@@ -1,0 +1,28 @@
+Game Idea: 
+
+This is a CLI-based hacker simulation game where players take on the role of a hacker completing various missions.Players can perform hacks like password cracking, data extraction, malware installation, and DDoS attacks, each requiring a sequence of commands to execute.A money system lets players earn rewards for successful hacks or incur penalties for failures.The game features a store where players can buy tools, upgrades, and resources to enhance their hacking capabilities. As players progress, challenges become more complex, requiring strategy, resource management, and risk-taking to achieve objectives while avoiding detection.
+
+
+
+
+Hacking Methods: 
+
+Password Cracking: Break into systems by brute-forcing or guessing passwords.
+Data Extraction: Locate, download, and retrieve confidential files from target directories.
+System Overload (DDoS): Simulate denial-of-service attacks to temporarily disable servers.
+Decrypting Data: Analyze and decode encrypted files or messages.
+Network Spoofing: Intercept or impersonate devices on a network to capture sensitive data.
+Bank Hacking: Transfer virtual funds by bypassing firewalls and securing traces.
+Player can buy machines and mine crypto to earn money.
+
+
+Examples : 
+scan: #deviceType
+connect 'SSID'
+secure/unsecure
+distance from device (Wifi Hacking)
+info 'SSID'
+brute 'filename'
+
+
+

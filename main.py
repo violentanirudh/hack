@@ -2,21 +2,14 @@
 import os
 
 os.system("cls")
-import os
-
-os.system("cls")
 
 print('''
 In the bustling sprawl of Neon Haven, a city of towering skyscrapers and neon-lit alleyways, 
 you grew up in the shadows of technology. Your father, a disgraced programmer framed for a cybercrime
 he didn’t commit, left behind only an outdated laptop and a thirst for justice in your veins. You look
 to avenge you father and family name.
-print('''
-In the bustling sprawl of Neon Haven, a city of towering skyscrapers and neon-lit alleyways, 
-you grew up in the shadows of technology. Your father, a disgraced programmer framed for a cybercrime
-he didn’t commit, left behind only an outdated laptop and a thirst for justice in your veins. You look
-to avenge you father and family name.
- ''')
+''')
+
 input()
 os.system("cls")
 # Main Player Menu
@@ -32,7 +25,7 @@ print('''
 ''')
 input()
 os.system("cls")
-os.system("cls")
+
 # Main Player Menu
 
 print('''
@@ -59,8 +52,8 @@ print(f'''
 ''')
 input()
 os.system("cls")
-input()
-os.system("cls")
+
+
 
 # Create a shopping menu for the player to purchase items and upgrades for the player
 print(

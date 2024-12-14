@@ -42,7 +42,7 @@ os.system("cls")
 print(
     '''
 ##################################
-#  Hack Menu Version 0.1         |
+#  Hacks R US!                   |
 # 1. Wifi Hacks                  |
 # 2. Network Hacks               |
 # 3. System Hacks                |

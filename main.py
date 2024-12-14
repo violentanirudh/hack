@@ -11,6 +11,19 @@ to avenge you father and family name.
  ''')
 input()
 os.system("cls")
+# Main Player Menu
+
+print('''
+#####################
+#  Main Menu        |
+# 1. Inventory      |
+# 2. Online Shop    |
+# 3. Contracts      |
+# 4. Exit           |
+#####################
+''')
+input()
+os.system("cls")
 
 # Create a menu for the user to see their current hacks, money, hardware
 print(f'''

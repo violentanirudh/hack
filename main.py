@@ -1,10 +1,29 @@
 # Display a background story for the character.
+import os
 
-print(''' In the bustling sprawl of Neon Haven, a city of towering skyscrapers and neon-lit alleyways, 
-you grew up in the shadows of technology. His father, a disgraced programmer framed for a cybercrime
- he didn’t commit, left behind only an outdated laptop and a thirst for justice in your veins.
+os.system("cls")
+
+print('''
+In the bustling sprawl of Neon Haven, a city of towering skyscrapers and neon-lit alleyways, 
+you grew up in the shadows of technology. Your father, a disgraced programmer framed for a cybercrime
+he didn’t commit, left behind only an outdated laptop and a thirst for justice in your veins. You look
+to avenge you father and family name.
  ''')
 input()
+os.system("cls")
+# Main Player Menu
+
+print('''
+#####################
+#  Main Menu        |
+# 1. Inventory      |
+# 2. Online Shop    |
+# 3. Contracts      |
+# 4. Exit           |
+#####################
+''')
+input()
+os.system("cls")
 
 # Create a menu for the user to see their current hacks, money, hardware
 print(f'''
@@ -16,6 +35,8 @@ print(f'''
 # 4. Exit           |
 #####################
 ''')
+input()
+os.system("cls")
 
 # Create a shopping menu for the player to purchase items and upgrades for the player
 print(

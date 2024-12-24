@@ -1,0 +1,91 @@
+Hacking Game: 
+
+
+1. Create menus:
+    1a. Shop - (Fixed balance and inventory issues.)
+    2a. Inventory - (Player inventory shows when user has item and store updates showing when inventory is bought.)
+    3a. Hacking Options - (Fixed try again option and added counter to shower player how many tries they have left.)
+    4a. Contracts (Not started)
+    5a. Exit
+
+
+1A. Create the shopping menu:
+    Network Scanner LAN/WIFI
+    What items are available to buy?
+    Wifi attacks
+    Network attacks
+    Viruses
+    IDS detection
+    Prices? Upgrades? 
+    Can the player sell the items back?
+
+
+2A. Inventory:
+    list, able to add and remove items
+    Keep track of how many items are in the Inventory
+    Keep track on money for the player
+    Keep track of completed tasks or just new ones and remove once complete?
+
+3A. Hacking Interface: 
+    When hacking into systems, create an interface to show the company logo for the system you are hacking into
+    Once in, show menu options  /  Hacks should be able to get player admin access to more menu options for better rewards but will be more problems
+    *******************
+    Hacking menu items:
+    Provide stats of the hacking tools
+    Provide the level of the hacking
+
+
+
+Types of Contracts:
+For Hire  <--- menu
+Dark Web  <--- menu 
+Reward for contracts <-- When to give the reward?
+Shop contracts <--- Vendor may need some help or may want to break into his bosses computer ?
+
+
+
+****************************************************************************************
+Extra Addon idea after the game is stable and basics are complete.
+    How does the player keep track of the contacts?         <-- Quest type of system?
+    How do you make sure the player has the correct items needed for the contact?
+    Is there a penality for not completing the contract within a period time?
+    Can the player do jobs for the shop in order to get a better discount on future items?
+    Does the prices go up or go down within the shop depending if the player fails the contracts?
+    Create a separate file for all functions
+    Create a sepearate file for menus to be displayed
+
+
+Exit:
+Good Bye!
+
+
+#### Work Log ######
+JJ 12/23 
+Added new menu styles
+Added $ to balance
+
+Started on creating the target system menus menus.player
+Imported module art See notes in menus.py
+
+
+######################################################
+Old Code##########
+
+
+"""     print("--- Welcome Fellow Hacker! ---")
+        print("1. Hacking Options")
+        print("2. Hacking Store")
+        print("3. View Inventory")
+        print("4. Exit") """
+
+
+
+   print("--- Here are your available hacks ---")
+    print("1. Password Cracker")
+    print("2. Data Extraction")
+    print("3. DDoS Attack")
+    print("4. Main Menu")
+
+        
+"""     print("--- Here is your Inventory ---")
+    print(f"Your current balance is {balance}") # Invetory will now show the current balance """
